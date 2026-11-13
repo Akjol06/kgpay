@@ -5,7 +5,7 @@ from .finik import AsyncFinik, Finik
 from .freedompay import AsyncFreedomPay, FreedomPay
 from .models import Payment, PaymentStatus, WebhookEvent
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 __all__ = [
     "APIError",
