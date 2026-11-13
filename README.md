@@ -29,7 +29,7 @@
 |---|---|:-:|:-:|---|
 | **[Finik](https://www.finik.kg)** | QR, bank cards | `Finik` | `AsyncFinik` | ✅ Stable |
 | **[FreedomPay](https://freedompay.kg)** | Cards, wallets, QR | `FreedomPay` | `AsyncFreedomPay` | ✅ Stable |
-| Mbank · O!Dengi · Elsom | — | — | — | 🔜 [Help wanted](#contributing) |
+| Mbank · Bakai Bank · Optima Bank · Eldik Bank · O!Dengi | — | — | — | 🔜 [Help wanted](#contributing) |
 
 ## Install
 
@@ -189,7 +189,7 @@ All of them inherit from `KGPayError`.
 
 ## Contributing
 
-New providers are very welcome, especially **Mbank, O!Dengi and Elsom**. Their APIs are not publicly documented, so if you have access to the docs as a merchant, a PR adding the client and tests is the most valuable contribution.
+New providers are very welcome, especially **Mbank, Bakai Bank, Optima Bank, Eldik Bank and O!Dengi**. Banks usually share acquiring API docs only with merchants, so if you have them, a PR adding the client and tests is the most valuable contribution.
 
 ```bash
 git clone https://github.com/Akjol06/kgpay && cd kgpay
