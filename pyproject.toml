@@ -1,0 +1,39 @@
+[project]
+name = "kgpay"
+version = "0.2.0"
+description = "Payment gateways of Kyrgyzstan for Python: Finik and FreedomPay. Signed requests, verified webhooks."
+readme = "README.md"
+authors = [{ name = "Akjol" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.25",
+    "cryptography>=41",
+]
+keywords = ["payments", "kyrgyzstan", "finik", "freedompay", "paybox", "kgs", "acquiring", "qr", "webhook"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial",
+    "Typing :: Typed",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[project.urls]
+Homepage = "https://github.com/Akjol06/kgpay"
+Issues = "https://github.com/Akjol06/kgpay/issues"
